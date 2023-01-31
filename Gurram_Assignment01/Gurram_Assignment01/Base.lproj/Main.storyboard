@@ -73,17 +73,46 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2vG-Ka-Nl3">
+                                <rect key="frame" x="70" y="571" width="103" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oqp-hm-DXJ">
+                                <rect key="frame" x="70" y="658" width="222" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBJ-ox-JCP">
+                                <rect key="frame" x="70" y="721" width="182" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uTF-7h-ioe">
+                                <rect key="frame" x="70" y="793" width="117" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemMintColor"/>
                     </view>
                     <connections>
-                        <outlet property="InitialsLabel" destination="Ekr-IF-nIY" id="RlP-M5-V8z"/>
-                        <outlet property="ageLabel" destination="cDX-Aj-OL0" id="AqT-Ka-aZf"/>
-                        <outlet property="firstNameOutlet" destination="Gop-3j-opL" id="wUL-OV-adW"/>
-                        <outlet property="fullNameLabel" destination="vOy-Mj-KPW" id="qys-pZ-hN2"/>
-                        <outlet property="lastNameOutlet" destination="Kvh-yx-hCV" id="bhj-DB-lZ9"/>
-                        <outlet property="yearOutlet" destination="IxM-6H-fKu" id="5s4-jM-Eid"/>
+                        <outlet property="InitialsLabel" destination="cBJ-ox-JCP" id="d6E-Yv-Buc"/>
+                        <outlet property="ageLabel" destination="uTF-7h-ioe" id="FXW-93-q5h"/>
+                        <outlet property="details" destination="2vG-Ka-Nl3" id="8UC-dk-Uh6"/>
+                        <outlet property="firstNameOutlet" destination="vOy-Mj-KPW" id="KsQ-JF-0YB"/>
+                        <outlet property="fullNameLabel" destination="oqp-hm-DXJ" id="2mf-zZ-9WK"/>
+                        <outlet property="lastNameOutlet" destination="Ekr-IF-nIY" id="H11-8g-RQX"/>
+                        <outlet property="yearOutlet" destination="cDX-Aj-OL0" id="aG5-yU-wna"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
